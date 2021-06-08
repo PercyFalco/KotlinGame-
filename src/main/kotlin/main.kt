@@ -43,5 +43,27 @@ fun main() {
                 "it was the new arcade machine Tron.\n" +
                 "Type next to continue")
         line = readLine()!!.toLowerCase()
+
+    while (line != "next"){
+        println("Wrong input please try again.")
+        line = readLine()!!.toLowerCase()
+    }
+        println("You longingly walk to the machine with your friends.\n " +
+                "\"It's heavenly\" you hear Gerard shout.\n" +
+                "you look at the screen and see that it asks for 1 token.\n" +
+                "you put in a token and start playing.\n" +
+                "The aim of the game is to hit the other player with your lightcycle.\n" +
+                "by means of a beam of light that is behind the light cycle.\n" +
+                "the time flew.\n" +
+                "you just kept pushing tokens into it.\n" +
+                "until Mason looked behind the machine and realized the power cord wasn't in it.\n" +
+                "this was strange because the machine was on and it worked.\n" +
+                "you then decide in consultation with your friends to plug in the plug to see if anything would change.\n" +
+                "you walk calmly to the cable and squat.\n" +
+                "you pick up the cable and plug it into the socket.\n" +
+                "ShSHHeSSSNII!?!?!\n" +
+                "TyPe NeXt To CoNtInUe!?!?!?!?!\n")
+        line = readLine()!!.toLowerCase()
 }
+
 
