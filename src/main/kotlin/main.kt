@@ -35,9 +35,13 @@ fun main() {
         println("Wrong input please try again.")
         line = readLine()!!.toLowerCase()
     }
-        println("Vul Hier de eerste paragraaf in die ik via discord heb gestuurd.")
+        println("Once arrived at the arcade.\n" +
+                "you exchange your pocket money into arcade tokens.\n" +
+                "you walk searching for the location of the new arcade machine.\n" +
+                "as you walk in the right direction you come across several other games like pacman, donkey kong etc.\n" +
+                "in the end of the aisle there were lights aimed at a machine.\n" +
+                "it was the new arcade machine Tron.\n" +
+                "Type next to continue")
         line = readLine()!!.toLowerCase()
-
-
-
 }
+
