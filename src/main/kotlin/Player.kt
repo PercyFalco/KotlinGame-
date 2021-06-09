@@ -2,7 +2,7 @@ class Player(val name: String, var life: Int = 3, var level: Int = 1, var score:
     val weapon = Weapon("Identity Disc", 10)
     val inventory = ArrayList<Loot>()
 
-
+    //Lives
     fun show() {
         if (life < 1) {
             println("$name is dead!")
@@ -21,7 +21,7 @@ class Player(val name: String, var life: Int = 3, var level: Int = 1, var score:
             weaponDmg: ${weapon.damageInflicted}
             """
     }
-
+    //Inventory
     fun showInventory() {
         println("$name's Inventory:")
         println(inventory.get(0))

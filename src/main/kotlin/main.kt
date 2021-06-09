@@ -1,7 +1,7 @@
 import javax.print.attribute.IntegerSyntax
 
 fun main() {
-
+    //Enemy's
     val redTron = Enemy("Red Tron", 15, 9)
     //println(redTron)
 
@@ -15,7 +15,7 @@ fun main() {
     //println(yellowTron)
 
 
-
+    //First Part of the story (Part 1)
     println("You wake up on a sunny morning and decide to go to the arcade.\n" +
             "You grab your bike and cycle to your friends to see if they are awake yet.\n" +
             "You are standing at the door of your best friend(Darian).\n" +
@@ -34,7 +34,7 @@ fun main() {
     while (line != "next"){
         println("Wrong input please try again.")
         line = readLine()!!.toLowerCase()
-    }
+    }    ////Second Part of the story (Part 2)
         println("Once arrived at the arcade.\n" +
                 "you exchange your pocket money into arcade tokens.\n" +
                 "you walk searching for the location of the new arcade machine.\n" +
@@ -47,7 +47,7 @@ fun main() {
     while (line != "next"){
         println("Wrong input please try again.")
         line = readLine()!!.toLowerCase()
-    }
+    }   //Third Part of the story (Part 3)
         println("You longingly walk to the machine with your friends.\n " +
                 "\"It's heavenly\" you hear Gerard shout.\n" +
                 "you look at the screen and see that it asks for 1 token.\n" +
