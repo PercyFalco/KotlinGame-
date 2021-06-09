@@ -64,6 +64,47 @@ fun main() {
                 "ShSHHeSSSNII!?!?!\n" +
                 "TyPe NeXt To CoNtInUe!?!?!?!?!\n")
         line = readLine()!!.toLowerCase()
+
+    while (line != "next"){
+        println("Wrong input please try again.")
+        line = readLine()!!.toLowerCase()
+    }   //Fourth Part of the story (Part 4)
+    println("You slowly wake up with a pain in your chest.\n " +
+            "As soon as you open your eyes you will notice that you are no longer in the arcade.\n" +
+            "\"Mason! Darian!\" you scream.\n" +
+            "Soon you realized that you have arrived in an unknown place where there are high mountains and beautiful blue sky with a cloud here and there.\n" +
+            "You try to get up slowly.\n" +
+            "With all the strength you still have you rise but not without difficulties.\n" +
+            "The pain in your chest only got worse the more you exerted yourself.\n" +
+            "Once on your feet you look around and to your great surprise you are in the middle of a forest surrounded by mountains.\n" +
+            "You decide to walk north towards the valley where there may be a village. \n" +
+            "You walked downhill to the valley.\n" +
+            "After one hour walk you were so exhausted that you just had to rest on a tree trunk that stood beside the path.\n" +
+            "You said to yourself \"it's just a dream\". \n" +
+            "After 10 minutes of rest you decide to continue.\n" +
+            "Type next to continue\n")
+        line = readLine()!!.toLowerCase()
+
+    while (line != "fight"){
+        println("Wrong input please try again.")
+        line = readLine()!!.toLowerCase()
+    }   //Fifth Part of the story (Part 5)
+    println("After walking 2 km you hear running water.\n " +
+            "You walk after the noise in the hope of being able to drink again.\n" +
+            "Once arrived at the water you see that it is a river with people standing by.\n" +
+            "\"Hello\" you call.\n" +
+            "To your surprise, the people came running towards you with swords and shields.\n" +
+            "You had a sword thrown at you.\n" +
+            "\"Fight to the death\" was called to you by the strange people. \n" +
+            "Type fight to continue\n")
+    line = readLine()!!.toLowerCase()
+    }
+
 }
+
+
+
+
+
 
 
