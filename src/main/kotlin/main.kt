@@ -36,10 +36,10 @@ fun main() {
         line = readLine()!!.toLowerCase()
     }    ////Second Part of the story (Part 2)
         println("Once arrived at the arcade.\n" +
-                "you exchange your pocket money into arcade tokens.\n" +
-                "you walk searching for the location of the new arcade machine.\n" +
-                "as you walk in the right direction you come across several other games like pacman, donkey kong etc.\n" +
-                "in the end of the aisle there were lights aimed at a machine.\n" +
+                "You exchange your pocket money into arcade tokens.\n" +
+                "You walk searching for the location of the new arcade machine.\n" +
+                "As you walk in the right direction you come across several other games like Pacman, Donkey Kong etc.\n" +
+                "In the end of the aisle there were lights aimed at a machine.\n" +
                 "it was the new arcade machine Tron.\n" +
                 "Type next to continue")
         line = readLine()!!.toLowerCase()
@@ -49,18 +49,18 @@ fun main() {
         line = readLine()!!.toLowerCase()
     }   //Third Part of the story (Part 3)
         println("You longingly walk to the machine with your friends.\n " +
-                "\"It's heavenly\" you hear Gerard shout.\n" +
-                "you look at the screen and see that it asks for 1 token.\n" +
-                "you put in a token and start playing.\n" +
+                "\"It's heavenly\" you hear Mason shout.\n" +
+                "You look at the screen and see that it asks for 1 token.\n" +
+                "You put in a token and start playing.\n" +
                 "The aim of the game is to hit the other player with your lightcycle.\n" +
-                "by means of a beam of light that is behind the light cycle.\n" +
-                "the time flew.\n" +
-                "you just kept pushing tokens into it.\n" +
-                "until Mason looked behind the machine and realized the power cord wasn't in it.\n" +
-                "this was strange because the machine was on and it worked.\n" +
-                "you then decide in consultation with your friends to plug in the plug to see if anything would change.\n" +
-                "you walk calmly to the cable and squat.\n" +
-                "you pick up the cable and plug it into the socket.\n" +
+                "By means of a beam of light that is behind the light cycle.\n" +
+                "The time flew.\n" +
+                "You just kept pushing tokens into it.\n" +
+                "Until Mason looked behind the machine and realized the power cord wasn't in\n" +
+                "This was strange because the machine was on and it worked.\n" +
+                "You then decide in consultation with your friends to plug in the plug to see if anything would change.\n" +
+                "You walk calmly to the cable and squat.\n" +
+                "You pick up the cable and plug it into the power socket.\n" +
                 "ShSHHeSSSNII!?!?!\n" +
                 "TyPe NeXt To CoNtInUe!?!?!?!?!\n")
         line = readLine()!!.toLowerCase()
