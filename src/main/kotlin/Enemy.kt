@@ -12,6 +12,11 @@ open class Enemy(val name: String, var hitpoints: Int, var lives: Int) {
             hitpoints = 0
             println("$name has lost.")
         }
+
+    }
+
+    fun attack(player: Player, minDamage: Int, maxDamage: Int) {
+        player.life
     }
     override fun toString(): String {
         return "Name: $name, Hitpoints: $hitpoints, Lives: $lives"
