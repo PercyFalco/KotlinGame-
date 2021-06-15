@@ -85,7 +85,7 @@ fun main() {
             "Type next to continue\n")
         line = readLine()!!.toLowerCase()
 
-    while (line != "fight"){
+    while (line != "next"){
         println("Wrong input please try again.")
         line = readLine()!!.toLowerCase()
     }   //Fifth Part of the story (Part 5)
@@ -98,9 +98,75 @@ fun main() {
             "\"Fight to the death\" was called to you by the strange people. \n" +
             "Type fight to continue\n")
     line = readLine()!!.toLowerCase()
-    }
 
+
+    while (line != "fight"){
+        println("Wrong input please try again.")
+        line = readLine()!!.toLowerCase()
+    }   //Bandit Fight
+    println("A bandit runs towards you he has his sword high and tries to make a move.\n " +
+            "What do you do dodge, slash, block\n" +
+            "Type your choice\n")
+            if (line != "dodge") {
+                println("You're avoiding the attack.\n" +
+                        "The bandit's sword is stuck in the ground.\n" +
+                        "what are you going to do overhead slash or a side slash\n"+
+                        "Type your choice.\n") }
+                        if(line != "overhead slash") {
+                            println("You raise your sword and wave it down.\n" +
+                                    "You cut the bandit head in half with your sword.\n" +
+                                    "The rest of the bandits look at you in shock as blood drops slide off your head\n" +
+                                    "All the other bandits run away in terror.\n" +
+                                    "The bandit you killed dropped something.\n" +
+                                    "It was a beatiful necklace.\n" +
+                                    "You decide to pick it up and put in your pocket") }
+                        else if(line != "side slash") {
+                            println("You put your sword back and swing your sword at the bandit's head with all your force.\n" +
+                                    "You decapitate the bandit.\n" +
+                                    "The rest of the bandits look at you in shock as blood drops slide off your head\n" +
+                                    "All the other bandits run away in terror.\n" +
+                                    "The bandit you killed dropped something.\n" +
+                                    "It was a beatiful necklace.\n" +
+                                    "You decide to pick it up and put in your pocket") }
+            else if(line != "slash") {
+                    println("You run towards the bandit with the sword in your hand.\n" +
+                            "With a quick slash aimed at his belly in mind.\n" +
+                            "Shesh you cut open the belly of the bandit all the guts came spilling out" +
+                            "The rest of the bandits look at you in shock as blood drops slide off your head\n" +
+                            "All the other bandits run away in terror.\n" +
+                            "The bandit you killed dropped something.\n" +
+                            "It was a beatiful necklace.\n" +
+                            "You decide to pick it up and put in your pocket") }
+            else if(line != "block")
+                    println("You see the bandit's sword in the sky.\n" +
+                            "You raise your sword in an attempt to block the attack.\n" +
+                            "you manage to block the attack but because there was so much power in the attack you fall over with your sword out of reach.\n" +
+                            "with no way to defend your self.\n" +
+                            "you decide to crawl to your sword.\n" +
+                            "On your way towards the sword you hear the bandit coming towards you." +
+                            "you feel a tremendous amount of force on your left arm.\n" +
+                            "it was the bandit standing on your arm.\n" +
+                            "The bandit swings his sword in the air in cut arm of." +
+                            "He then moves over to the other arm and cuts that one of.\n" +
+                            "The bandit moves you to the campfire where a burning sword was.\n" +
+                            "He then burns the wound so it stops bleeding.\n" +
+                            "With your wound scourged you were helpless.\n" +
+                            "You were being carried to a table and stripped naked.\n" +
+                            "With no way to see whats happening behind you.\n" +
+                            "You feel a sharp thing moving between your legs and gently going up.\n" +
+                            "it was a sword that you felt.\n" +
+                            "The sword was put to your ass and pushed in with a lot of force.\n" +
+                            "the pushing stopped when the point of the sword came out of your mouth" +
+                            "You have lost a live")
+
+    line = readLine()!!.toLowerCase()
 }
+
+
+
+
+
+
 
 
 
