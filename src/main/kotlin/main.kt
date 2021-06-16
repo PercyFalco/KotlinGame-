@@ -14,6 +14,17 @@ fun main() {
     //yellowTron.takeDamage(30)
     //println(yellowTron)
 
+    val gerard = Player("Gerard",4,1,0)
+
+    val topazNecklace = Loot("Topaz Necklace", LootType.NECKLACE, 2000.00)
+    val gibralNecklace = Loot("Gibral Necklace", LootType.NECKLACE, 2500.00)
+    val ironGreatSword = Loot("Iron Great Sword", LootType.WEAPON, 1200.00)
+    val retribution = Loot("Retribution", LootType.WEAPON, 5200.00)
+    val blackSteelArmor = Loot("Black Steel Armor", LootType.ARMOR, 3500.00)
+    val bronzeArmor = Loot("Bronze Armor", LootType.ARMOR, 1000.00)
+    val silverRing = Loot("Silver Ring", LootType.RING, 500.00)
+    val puzzleRing = Loot("Puzzle Ring", LootType.RING, 12000.00)
+
 
     //First Part of the story (Part 1)
     println("You wake up on a sunny morning and decide to go to the arcade.\n" +
