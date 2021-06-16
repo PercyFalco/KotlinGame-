@@ -1,4 +1,4 @@
-class Player(val name: String, var life: Int = 40, var level: Int = 1, var score: Int = 0) {
+class Player(val name: String, var life: Int = 3, var level: Int = 1, var score: Int = 0) {
     val weapon = Weapon("Iron Dagger", 10)
     val inventory = ArrayList<Loot>()
 

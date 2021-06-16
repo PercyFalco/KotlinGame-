@@ -122,7 +122,8 @@ fun main() {
                                     "All the other bandits run away in terror.\n" +
                                     "The bandit you killed dropped something.\n" +
                                     "It was a beautiful necklace.\n" +
-                                    "You decide to pick it up and put in your pocket.") }
+                                    "You decide to pick it up and put in your pocket.\n" +
+                                    "Type walk to continue") }
                         else if(line == "side slash") {
                             println("You put your sword back and swing your sword at the bandit's head with all your force.\n" +
                                     "You decapitate the bandit.\n" +
@@ -130,7 +131,8 @@ fun main() {
                                     "All the other bandits run away in terror.\n" +
                                     "The bandit you killed dropped something.\n" +
                                     "It was a beautiful necklace.\n" +
-                                    "You decide to pick it up and put in your pocket.")
+                                    "You decide to pick it up and put in your pocket.\n" +
+                                    "Type walk to continue")
                                     line = readLine() }
                                                         }
 
@@ -142,7 +144,8 @@ fun main() {
                             "All the other bandits run away in terror.\n" +
                             "The bandit you killed dropped something.\n" +
                             "It was a beautiful necklace.\n" +
-                            "You decide to pick it up and put in your pocket.") }
+                            "You decide to pick it up and put in your pocket.\n" +
+                            "Type walk to continue") }
             else if(line == "block") {
                     println("You see the bandit's sword in the sky.\n" +
                             "You raise your sword in an attempt to block the attack.\n" +
@@ -163,7 +166,49 @@ fun main() {
                             "it was a sword that you felt.\n" +
                             "The sword was put to your ass and pushed in with a lot of force.\n" +
                             "the pushing stopped when the point of the sword came out of your mouth." +
-                            "You have lost a live") }
+                            "You have lost a live\n" +
+                            "Type walk to continue") }
+
+    line = readLine()
+    while (line != "walk"){
+        println("Wrong input please try again.")
+        line = readLine()!!.toLowerCase()
+    }   //sixth Part of the story (Part 6)
+    println("you are tired of the fight.\n " +
+            "it was a tough event but you got out of it.\n" +
+            "you walk to the river to drink some water to quench your thirst.\n" +
+            "after resting for a while you decide to follow the river in the hope that you will arrive at a village.\n" +
+            "you keep following the river for about 3 km.\n" +
+            "but then you see that the water falls down.\n" +
+            "it's a waterfall.\n" +
+            "you walk up to the edge to see how high it is.\n" +
+            "the height was about 20 meters.\n" +
+            "next to the waterfall you spot some protruding stones that you can climb down.\n" +
+            "but you can also jump down as the water looked quite deep. \n" +
+            "what will you do?\n" +
+            "jump or climb\n"
+            )
+    line = readLine()!!.toLowerCase()
+    if (line == "jump") {
+        println("you stand at the edge and still think of the time at the arcade.\n" +
+                "\"I wish I hadn't touched that cable.\"\n" +
+                "you look down and take a deep breath.\n"+
+                "you quietly walk backwards until you decide to jump down.\n" +
+                "this was the moment." +
+                "you run to the edge and jump." +
+                "\"ahahhahhhhhh\" you scream as you fall." +
+                "splash! you end up in the water and swim to the shore as quickly as possible.") }
+
+        else if(line == "climb") {
+            println("\n" +
+                    "\n" +
+                    "\n" +
+                    "\n" +
+                    "\n" +
+                    "\n" +
+                    "\n" +
+                    "\n" +
+                    "") }
 }
 
 
