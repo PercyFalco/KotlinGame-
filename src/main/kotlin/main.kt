@@ -104,16 +104,18 @@ fun main() {
         println("Wrong input please try again.")
         line = readLine()!!.toLowerCase()
     }   //Bandit Fight
+
     println("A bandit runs towards you he has his sword high and tries to make a move.\n " +
             "What do you do dodge, slash, block.\n" +
             "Type your choice.\n")
-            line = readLine()
-            if (line != "dodge") {
+            line = readLine()!!.toLowerCase()
+            if (line == "dodge") {
                 println("You're avoiding the attack.\n" +
                         "The bandit's sword is stuck in the ground.\n" +
                         "what are you going to do overhead slash or a side slash.\n"+
-                        "Type your choice.\n") }
-                        if(line != "overhead slash") {
+                        "Type your choice.\n")
+                        line = readLine()
+                        if(line == "overhead slash") {
                             println("You raise your sword and wave it down.\n" +
                                     "You cut the bandit head in half with your sword.\n" +
                                     "The rest of the bandits look at you in shock as blood drops slide off your head.\n" +
@@ -121,15 +123,18 @@ fun main() {
                                     "The bandit you killed dropped something.\n" +
                                     "It was a beautiful necklace.\n" +
                                     "You decide to pick it up and put in your pocket.") }
-                        else if(line != "side slash") {
+                        else if(line == "side slash") {
                             println("You put your sword back and swing your sword at the bandit's head with all your force.\n" +
                                     "You decapitate the bandit.\n" +
                                     "The rest of the bandits look at you in shock as blood drops slide off your head.\n" +
                                     "All the other bandits run away in terror.\n" +
                                     "The bandit you killed dropped something.\n" +
                                     "It was a beautiful necklace.\n" +
-                                    "You decide to pick it up and put in your pocket.") }
-            else if(line != "slash") {
+                                    "You decide to pick it up and put in your pocket.")
+                                    line = readLine() }
+                                                        }
+
+            else if(line == "slash") {
                     println("You run towards the bandit with the sword in your hand.\n" +
                             "With a quick slash aimed at his belly in mind.\n" +
                             "Slashh! you cut open the belly of the bandit all the guts came spilling out." +
@@ -138,7 +143,7 @@ fun main() {
                             "The bandit you killed dropped something.\n" +
                             "It was a beautiful necklace.\n" +
                             "You decide to pick it up and put in your pocket.") }
-            else if(line != "block") {
+            else if(line == "block") {
                     println("You see the bandit's sword in the sky.\n" +
                             "You raise your sword in an attempt to block the attack.\n" +
                             "you manage to block the attack but because there was so much power in the attack you fall over with your sword out of reach.\n" +
@@ -159,8 +164,6 @@ fun main() {
                             "The sword was put to your ass and pushed in with a lot of force.\n" +
                             "the pushing stopped when the point of the sword came out of your mouth." +
                             "You have lost a live") }
-
-    line = readLine()!!.toLowerCase()
 }
 
 
