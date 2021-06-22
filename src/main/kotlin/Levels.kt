@@ -19,18 +19,18 @@ class Levels(){
 
 
         //weapons
-        val sword1 = Weapon("sword", 1)
-        val shield1 = Weapon("shield", 1)
-        val bow1 = Weapon("bow", 1)
+        val ironSword = Weapon("Iron sword", 1)
+        val towerShield = Weapon("Tower shield", 1)
+        val woodenBow = Weapon("Wooden bow", 1)
         val teeth = Weapon("Wolf Teeth", 1)
         val mind = Weapon("Mind", 1)
         val chair = Weapon("Spikey Chair", 1)
         val pitchfork = Weapon("Pitchfork", 1)
         val Scream = Weapon("Scream", 1)
-        val knife = Weapon("Knife",1)
+        val ironDagger = Weapon("Iron Dagger",1)
         val fist = Weapon("Fist", 1)
-        val axe1 = Weapon("Axe",1)
-        val chain1 = Weapon("Electrocuted chain", 1)
+        val lumberAxe = Weapon("Lumber Axe",1)
+        val electroChain = Weapon("Electrocuted chain", 1)
 
 
 
@@ -201,7 +201,7 @@ class Levels(){
                         "It was a beautiful necklace.\n" +
                         "You decide to pick it up and put in your pocket.\n" +
                         "Type walk to continue")
-                        bandit.takeDamage(sword1)
+                        bandit.takeDamage(ironSword)
                         player.inventory.add(necklace)
                         player.showInventory()}
 
@@ -215,7 +215,7 @@ class Levels(){
                         "It was a beautiful necklace.\n" +
                         "You decide to pick it up and put in your pocket.\n" +
                         "Type walk to continue")
-                        bandit.takeDamage(sword1)
+                        bandit.takeDamage(ironSword)
                         player.inventory.add(necklace)
                         player.showInventory()
                         line = readLine() }
@@ -231,7 +231,7 @@ class Levels(){
                     "It was a beautiful necklace.\n" +
                     "You decide to pick it up and put in your pocket.\n" +
                     "Type walk to continue")
-                    bandit.takeDamage(sword1)
+                    bandit.takeDamage(ironSword)
                     player.inventory.add(necklace)
                     player.showInventory()}
 
@@ -259,7 +259,7 @@ class Levels(){
                     "The pushing stopped when the point of the sword came out of your mouth." +
                     "You have lost a live\n" +
                     "Type walk to continue")
-                    player.takeDamage(sword1)
+                    player.takeDamage(ironSword)
                     }
 
 
@@ -371,7 +371,7 @@ class Levels(){
                                     "You open your eyes and can hardly believe it." +
                                     "There are people.\n" +
                                     "Type walk to continue")
-                                    wolf.takeDamage(bow1)}
+                                    wolf.takeDamage(woodenBow)}
 
 
         //level 4
@@ -592,7 +592,7 @@ class Levels(){
                                     "Darian stabs a knife in your leg." +
                                     "They keep stabbing you till you cant breath anymore. +" +
                                     "Type next to continue")
-                                    player.takeDamage(knife)}
+                                    player.takeDamage(ironDagger)}
 
 
 
@@ -610,8 +610,8 @@ class Levels(){
                                     "You slash him in half with your chain.\n" +
                                     "All of a sudden you are blinded by a bright light\n" +
                                     "Type see to continue")
-                                    darian.takeDamage(chain1)
-                                    mason.takeDamage(chain1)}
+                                    darian.takeDamage(electroChain)
+                                    mason.takeDamage(electroChain)}
                                     line = readLine()
 
         //ENDING
