@@ -535,8 +535,8 @@ class Levels(){
                                 "You smash the door open and you were being blinded by the sunlight.\n" +
                                 "IT WAS ALREADY BEEN DONE!\n" +
                                 "You hear behind you.\n" +
-                                "The real world is also flickering now." +
-                                "\"What is happening\" you say to yourself. +" +
+                                "The real world is also flickering now.\n" +
+                                "\"What is happening\" you say to yourself.\n" +
                                 "Type next to continue")}
 
 
@@ -552,8 +552,8 @@ class Levels(){
                                 "You smash the door open and you were being blinded by the sunlight.\n" +
                                 "\"IT WAS ALREADY BEEN DONE!\"\n" +
                                 "You hear behind you.\n" +
-                                "The real world is also flickering now." +
-                                "\"What is happening\" you say to yourself. +" +
+                                "The real world is also flickering now.\n" +
+                                "\"What is happening\" you say to yourself.\n" +
                                 "Type next to continue")
                                 darian.takeDamage(fist)
                                 mason.takeDamage(fist)}
@@ -561,7 +561,7 @@ class Levels(){
 
 
         //level 8
-        while (line != "wake"){
+        while (line != "next"){
             println("Wrong input please try again.")
             line = readLine()!!.toLowerCase()
 
@@ -589,8 +589,8 @@ class Levels(){
                                     "With there heads on the ground you turn around.\n" +
                                     "\"Sorry $username\" your friends are in front of you.\n" +
                                     "Mason stabs a knife in your chest.\n" +
-                                    "Darian stabs a knife in your leg." +
-                                    "They keep stabbing you till you cant breath anymore. +" +
+                                    "Darian stabs a knife in your leg.\n" +
+                                    "They keep stabbing you till you cant breath anymore.\n" +
                                     "Type next to continue")
                                     player.takeDamage(ironDagger)}
 
@@ -606,7 +606,7 @@ class Levels(){
                                     "The chain is now stuck around him.\n" +
                                     "You pull the chain and see Darian dissolve.\n" +
                                     "you're next target Mason\n" +
-                                    "\"This isn't real $username. this is all in your head\"  " +
+                                    "\"This isn't real $username. this is all in your head\n"  +
                                     "You slash him in half with your chain.\n" +
                                     "All of a sudden you are blinded by a bright light\n" +
                                     "Type see to continue")
@@ -631,8 +631,8 @@ class Levels(){
                 "\"You do realise you are in this Psychiatric hospital for brutally killing your family?\"\n" +
                 "\"No! NO ! No!?! this cant be.\" You scream\n" +
                 "Your name also isn't $username. this is a made up name by yourself to process your loss.\n" +
-                "\"Your real Name is Alex\" You killed your wife and your 3 childeren: Darian, Mason, Voice" +
-                "\"We are here to help you\" Says the doctor" +
+                "\"Your real Name is Alex\" You killed your wife and your 3 childeren: Darian, Mason, Voice\n" +
+                "\"We are here to help you\" Says the doctor\n" +
                 "THE END")
 
 
