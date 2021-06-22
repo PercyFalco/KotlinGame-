@@ -1,3 +1,4 @@
+//Combat
 open class Civillians(val name: String, var hitpoints: Int, var life: Int, var level: Int) {
     val inventory = ArrayList<Loot>()
     val weapon = Weapon("weapon", 10)
@@ -18,6 +19,9 @@ open class Civillians(val name: String, var hitpoints: Int, var life: Int, var l
             }
         }
     }
+
+
+    //Inventory
     fun showInventory() {
         println("$name's Inventory:")
         for (item in inventory) {

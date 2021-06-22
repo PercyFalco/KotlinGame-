@@ -1,5 +1,5 @@
 import kotlin.system.exitProcess
-
+//Player Value paramaters
 class Player(name: String, hitpoints: Int, life: Int, level: Int) : Civillians(name, hitpoints, life, level) {
 
     //Lives
@@ -12,7 +12,7 @@ class Player(name: String, hitpoints: Int, life: Int, level: Int) : Civillians(n
         }
     }
 
-
+    //override function
     override fun toString(): String {
         return """
             name:  $name
