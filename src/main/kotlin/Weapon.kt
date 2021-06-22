@@ -1,3 +1,4 @@
-class Weapon(val name: String, var damageInflicted: Int) {
-
+class Weapon(var varName: String, var vardamageInflicted: Int) {
+    var name = varName
+    var damageInflicted = vardamageInflicted
 }
